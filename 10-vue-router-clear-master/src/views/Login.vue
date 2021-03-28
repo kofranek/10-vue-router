@@ -14,11 +14,10 @@
     <button class="btn primary" type="submit">{{ $i18n('app.enter') }}</button>
     <router-link to="/forget" v-slot="{ navigate }">
       <button class="btn warning" @click="navigate">{{ $i18n('app.forgot') }}</button>
-
     </router-link>
 
     <!--    <a href="/forget">{{ $i18n('app.forgot') }}</a>-->
-    <router-link to="/forget">{{ $i18n('app.forgot') }}</router-link>
+    <!--    <router-link to="/forget">{{ $i18n('app.forgot') }}</router-link>-->
   </form>
 </template>
 

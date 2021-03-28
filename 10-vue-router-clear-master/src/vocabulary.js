@@ -17,7 +17,7 @@ export {ru , cz , en }
       toMail: 'К почте',
       forgotPasswort: 'Забыл пароль? Так вспоминай!',
       backToLogin: 'Обратно к логину',
-      mailTopic: 'Тема письма'
+      selectEmail: 'Выберите письмо'
     }
   }
 
@@ -31,7 +31,7 @@ export {ru , cz , en }
       enter: 'Enter',
       forgot: 'Forgot password?',
       close: 'Close',
-      goOut: 'Go out',
+      goOut: 'Logout',
       post: 'Post',
       main: 'Main page',
       hello: 'Hello on the main page',
@@ -39,7 +39,7 @@ export {ru , cz , en }
       toMail: 'To mail',
       forgotPasswort: 'Forgot password? So remember!',
       backToLogin: 'Back to login',
-      mailTopic: 'ТTopic of the letter'
+      selectEmail: 'Select email'
 
     }
   }
@@ -54,7 +54,7 @@ export {ru , cz , en }
       enter: 'Přihlásit se',
       forgot: 'Zapomenuté heslo?',
       close: 'Zavřít',
-      goOut: 'Jít ven',
+      goOut: 'Odhlásit se',
       post: 'Pošta',
       main: 'Hlavní stránka',
       hello: 'Vítáme na hlavní stránce',
@@ -62,7 +62,7 @@ export {ru , cz , en }
       toMail: 'K poště',
       forgotPasswort: 'Zapomenuté heslo? Tak si vzpomeňte!',
       backToLogin: 'Zpět k přihlášení',
-      mailTopic: 'Předmět dopisu'
+      selectEmail: 'Vyberte email'
     }
   }
 
