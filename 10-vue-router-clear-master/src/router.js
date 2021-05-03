@@ -6,7 +6,6 @@ import Mail from './views/Mail'
 import AppEmailBody from './components/AppEmailBody'
 import NotFound from './views/NotFound';
 
-
 // createMemoryHistory
 // createWebHashHistory
 
@@ -23,7 +22,8 @@ export default createRouter(
           { path: ':mailId?', component: AppEmailBody, props: true }
         ]
       },
-      { path: '/:notFound(.*)', component: NotFound}
+      // { path: '/:notExistPage(.*)', redirect: '/login' }
+      { path: '/:notFound(.*)', component: NotFound }
 
     ],
     linkActiveClass: 'active',
