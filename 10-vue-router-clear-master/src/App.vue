@@ -45,12 +45,14 @@ export default {
       console.log('logout')
       this.isAuth = false
       // this.$router.push('/login')
-      this.$router.push({
-                          path: '/login',
-                          query: {
-                            page: this.$route.path
-                          }
-                        })
+      this.$router.push(
+          {
+            path: '/login',
+            query: {
+              page: this.$route.path
+            }
+          }
+      )
     },
   },
   provide () {

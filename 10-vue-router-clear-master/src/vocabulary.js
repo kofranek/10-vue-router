@@ -17,7 +17,10 @@ export {ru , cz , en }
       toMail: 'К почте',
       forgotPasswort: 'Забыл пароль? Так вспоминай!',
       backToLogin: 'Обратно к логину',
-      selectEmail: 'Выберите письмо'
+      selectEmail: 'Выберите письмо',
+      notFound: 'Страница не найдeна',
+      authorisation: 'авторизоваться'
+
     }
   }
 
@@ -39,7 +42,9 @@ export {ru , cz , en }
       toMail: 'To mail',
       forgotPasswort: 'Forgot password? So remember!',
       backToLogin: 'Back to login',
-      selectEmail: 'Select email'
+      selectEmail: 'Select email',
+      notFound:'Page not found',
+      authorisation: 'To authorisation'
 
     }
   }
@@ -62,7 +67,9 @@ export {ru , cz , en }
       toMail: 'K poště',
       forgotPasswort: 'Zapomenuté heslo? Tak si vzpomeňte!',
       backToLogin: 'Zpět k přihlášení',
-      selectEmail: 'Vyberte email'
+      selectEmail: 'Vyberte email',
+      notFound:'Stránka nenalezena',
+      authorisation: 'Autorizujte se'
     }
   }
 
